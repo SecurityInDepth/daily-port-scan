@@ -1,0 +1,7 @@
+#Note, make sure to input the following into the root crontab. Nmap will need this level of permission when executed. 
+#This can be done by typing "sudo crontab -e" into the terminal.
+
+#The following is an example to run the script daily at 4am for the set server time. 
+
+# m h  dom mon dow   command
+  0 4 * * * /location/to/script/daily-port-scan.sh
